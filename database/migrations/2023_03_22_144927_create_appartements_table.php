@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('appartements', function (Blueprint $table) {
             $table->id();
-            $table->int('num_appart');
-            $table->int('prix');
+            $table->integer('num_appart');
+            $table->integer('prix');
             $table->timestamps();
         });
     }

@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('nom');
             $table->string('telephone');
-            $table->int('montant_p');
-            $table->int('montant_r');
-            $table->int('num_chamb');
+            $table->integer('montant_p');
+            $table->integer('montant_r');
+            $table->integer('num_chamb');
             $table->timestamps();
         });
     }
